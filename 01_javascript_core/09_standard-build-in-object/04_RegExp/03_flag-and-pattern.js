@@ -78,9 +78,9 @@ const fileName2 = 'js_test.com';
 console.log(/js$/.test(fileName));
 console.log(/js$/.test(fileName2));
 
-const target = '12345';
+const targett = '12345';
 const target2 = '@12345@';
-console.log(/^\d+$/.test(target));
+console.log(/^\d+$/.test(targett));
 console.log(/^\d+$/.test(target2));
 
 const id = 'hello123';
